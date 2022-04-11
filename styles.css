@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "EB Garamond", serif;
+}
+main {
+    padding: 2rem 0;
+}
+
+header {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+header a {
+    text-decoration: none;
+}
+
+section p:first-child {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    border-top: 1px solid rgba(0, 0, 0, 0.637);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.637);
+    padding: 0.2rem 0;
+    margin: 0.5rem 0;
+}
+
+h3 {
+    margin-right: 0.2rem;
+    font-size: 1.25rem;
+}
+
+h3 + p {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+main {
+    width: 864px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#skills {
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: space-around;
+    line-height: 1.5;
+}
+
+span {
+    font-weight: bold;
+}
+
+.projects {
+    line-height: 1.8;
+    padding: 0.5rem 0;
+}
+
+.project-name {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    margin-left: 1.2rem;
+    list-style-type: square;
+    font-size: 1.2rem;
+}
+
+.experience {
+    line-height: 1.8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jobs {
+    line-height: 1;
+}
+
+#jobs-location {
+    text-align: right;
+}
+
+.education {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.8rem;
+}
+
+.education-grid {
+    display: grid;
+    grid-template-columns: 0.65fr 1.2fr 0.5fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: baseline;
+    line-height: 1.8;
+}
+
+.education-description {
+    justify-self: start;
+}
+
+.education-date {
+    justify-self: end;
+}
+
+#personal {
+    font-size: 1.2rem;
+    text-align: center;
+}
